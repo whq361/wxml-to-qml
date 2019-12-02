@@ -7,8 +7,8 @@
  
 var fs = require('fs');
 var path = require('path');
-//解析需要遍历的文件夹，我的changName.js和target文件夹是同一个目录，target文件夹就是我要处理的文件夹
-var filePath = path.resolve('./target');
+//解析需要遍历的文件夹，我的changName.js和target文件夹是同一个目录，wxml-to-qml文件夹就是我要处理的文件夹
+var filePath = path.resolve('./wxml-to-qml');
  
  
 //调用文件遍历方法
